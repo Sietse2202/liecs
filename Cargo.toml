@@ -1,0 +1,9 @@
+[package]
+name = "liecs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+liecs-macros = { path = "liecs-macros" }
+heapless = "0.8.0"
+time = "0.3.37"
